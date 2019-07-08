@@ -4,4 +4,6 @@ NAME="Node.js"
 BASE_REPO=node
 VARIANTS=(browsers)
 
+TAG_FILTER="grep -v -e chakracore-8.11.1"
+
 source ../shared/images/generate.sh
