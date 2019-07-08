@@ -394,7 +394,7 @@ jobs:
 
   publish_ruby:
     <<: *publish_image
-    parallelism: 4
+    parallelism: 3
     environment:
       - PLATFORM: ruby
 
