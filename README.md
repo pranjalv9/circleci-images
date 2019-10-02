@@ -139,5 +139,11 @@ By default, a given branch will push images to the [`ccitest` Docker Hub org](ht
 * The template language is a WIP—it only supports `{{BASE_IMAGE}}` template. We should extend this.
 * We cannot support Oracle JDK for licensing reasons. See [Oracle's Binary Code License Agreement for the Java SE Platform](http://oracle.com/technetwork/java/javase/terms/license/index.html) and [Stack Exchange: Is there no Oracle JDK for docker?](https://devops.stackexchange.com/questions/433/is-there-no-oracle-jdk-for-docker) for details.
 
-## Licensing
-The `circleci-images` repository is licensed under The MIT License. See [LICENSE](https://github.com/moby/moby/blob/master/LICENSE) for the full license text.
+
+## Licensing & Usage
+
+The `circleci-images` repository is licensed under The MIT License.
+See [LICENSE](https://github.com/circleci/circleci-images/blob/master/LICENSE) for the full license text.
+
+The Docker images generated from this repository are designed to work with the CircleCI `docker` executor.
+While you may use the images anywhere Docker is available, your experience may vary.
